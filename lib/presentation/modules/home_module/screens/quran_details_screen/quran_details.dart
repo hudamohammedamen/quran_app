@@ -34,7 +34,9 @@ class _QuranDetailsScreenState extends State<QuranDetailsScreen> {
           ),
           body: verses.isEmpty
               ? Center(
-                  child: CircularProgressIndicator(),
+                  child: CircularProgressIndicator(
+                    color: Theme.of(context).primaryColor,
+                  ),
                 )
               : ListView.builder(
                   itemBuilder: (context, index) =>

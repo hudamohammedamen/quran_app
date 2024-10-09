@@ -3,6 +3,7 @@ import 'package:quran_app/core/colors_manager.dart';
 
 class MyTheme {
   static ThemeData lightTheme = ThemeData(
+    primaryColor: ColorsManager.goldColor,
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.transparent,
       titleTextStyle: TextStyle(
